@@ -1,0 +1,71 @@
+{
+  "slug": "feature-card",
+  "title": "Feature Card",
+  "tagline": "A simple card component for highlighting features with a title, and description",
+  "description": "A lightweight, reusable card component ideal for showcasing features, services, or highlights. The component uses semantic HTML with BEM naming conventions for clear, maintainable styling.",
+  "snippet_type": "Etch Component",
+  "code_parts": [
+    {
+      "label": "Etch Component",
+      "language": "etch",
+      "file": "feature-card.json"
+    }
+  ],
+  "how_to": [
+    "Click to copy the component code from the Etch Component section.",
+    "Paste the code into your project where you want the feature card to appear.",
+    "Set the CSS variables for spacing, colors, and typography to match your design system.",
+    "Customize the content by updating the item properties (name and description) in the item object.",
+    "item object example: { name: 'One-Click Forward', description: '<div><p>&nbsp;</p><div>Click a preset button in the Gmail sidebar to forward instantly.</div></div>' }",
+    "Use the component in a loop to create multiple feature cards from an array of feature objects, allowing for dynamic content management."
+  ],
+  "usage_instructions": [
+    "Hint: This component is designed to be flexible and can be used in various contexts such as product features, service highlights, or any content that benefits from a card layout. Adjust the styles and structure as needed to fit your specific use case.",
+    "Hint: To ensure the component integrates seamlessly with your design system, consider defining CSS variables for colors, spacing, and typography. This allows for easy theming and consistency across your project.",
+    "Hint: The component is built with accessibility in mind, using semantic HTML elements. Ensure that any interactive elements within the card (like links) are keyboard accessible and have appropriate ARIA labels if necessary.",
+    "Hint: For dynamic content, you can pass different item objects to the component to display various features without needing to duplicate the markup. This makes it a versatile solution for showcasing multiple features in a consistent format.",
+    "Hint: To use this component in a larger layout, consider wrapping it in a grid or flex container to create a responsive design that adapts to different screen sizes. This allows you to display multiple feature cards side by side on larger screens and stack them on smaller devices for optimal readability.",
+    "Hint: This component includes a simple hover effect to emphasize the feature.",
+    "Hint: The description supports HTML content, allowing for rich formatting. Ensure that any HTML included in the description is properly sanitized to prevent security issues.",
+    "Hint: Use this card in a loop to dynamically generate multiple feature cards from an array of feature objects, making it easy to manage and update your content without changing the underlying structure of the component."
+  ],
+  "styling_notes": "Uses BEM naming convention. The component is set to a max-width of 300px by default—adjust .feature-card as needed. Link color defaults to #007acc; modify to match your brand.",
+  "variables": [
+    {
+      "name": "--space-m",
+      "description": "Defines the padding around the card content. Adjust this variable to increase or decrease the spacing within the card.",
+      "default": "16px"
+    },
+    {
+      "name": "--radius",
+      "description": "Controls the border-radius of the card, affecting how rounded the corners are. Set this variable to create sharper or softer edges on the card.",
+      "default": "8px"
+    },
+    {
+      "name": "--white",
+      "description": "Sets the background color of the card. Change this variable to match your design's color scheme.",
+      "default": "#fff"
+    },
+    {
+      "name": "--h5",
+      "description": "Defines the font size for the heading of the card. Adjust this variable to increase or decrease the size of the title text.",
+      "default": "1.1rem"
+    },
+    {
+      "name": "--primary",
+      "description": "Specifies the color used for the heading text. Modify this variable to align with your brand's primary color.",
+      "default": "#007acc"
+    },
+    {
+      "name": "--text-dark",
+      "description": "Sets the color for the content text within the card. Change this variable to ensure good contrast and readability based on your design.",
+      "default": "#333"
+    }
+  ],
+  "tags": [
+    "component",
+    "card",
+    "etch"
+  ],
+  "preview_image": "preview.png"
+}
