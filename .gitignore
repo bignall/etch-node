@@ -1,0 +1,18 @@
+# Node modules
+node_modules/
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+
+# IDEA/WebStorm
+.idea/
+
+# VSCode
+.vscode/

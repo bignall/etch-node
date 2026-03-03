@@ -1,0 +1,5 @@
+<div class="feature-card">
+  <h2 class="feature-card__title">Feature title</h2>
+  <p class="feature-card__description">Short description of the feature.</p>
+  <a href="#" class="feature-card__link">Learn more</a>
+</div>
