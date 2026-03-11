@@ -1,0 +1,15 @@
+<!-- Usage: 
+The script now supports two modes:
+
+1. Default behavior – clicking a .copy-btn copies the nearest <code> block’s text.
+
+2. Fetch‑and‑copy – if the button has a data-copy-url attribute, it fetches that file (relative or absolute URL) and writes its contents to the clipboard.
+-->
+
+<!-- copy visible code -->
+<button class="copy-btn">Copy code</button>
+
+<!-- fetch a snippet file and copy it -->
+<button class="copy-btn" data-copy-url="/snippets/feature-card/feature-card.etch">
+  Copy .etch file
+</button>
